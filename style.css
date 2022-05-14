@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-color: aliceblue;
+    /*background: aquamarine;*/
+}
+
+.login{
+    width: 450px;
+    background: #24303c;
+    padding: 40px;
+    margin:auto;
+    margin-top:50px;
+    border-radius:20px;
+    font-family: 'calibri';
+    color:white;
+   
+}
+
+.login input{
+    width:300px;
+    background-color: aliceblue;
+    text-decoration-color: #24303c;
+}
+
+.login h3{
+font-size:22px;
+margin-bottom:10px;
+background-color:#24303c;
+}
