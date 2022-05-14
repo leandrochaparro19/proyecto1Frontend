@@ -1,9 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration-color: aliceblue;
-    /*background: aquamarine;*/
 }
 
 .login{
@@ -19,7 +19,6 @@
 }
 
 .login input{
-    width:300px;
     background-color: aliceblue;
     text-decoration-color: #24303c;
 }
