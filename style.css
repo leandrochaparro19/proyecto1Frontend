@@ -1,31 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration-color: aliceblue;
-    /*background: aquamarine;*/
-}
-
 .login{
-    width: 450px;
+    width: 220px;
     background: #24303c;
-    padding: 40px;
+    padding: 30px;
     margin:auto;
     margin-top:50px;
     border-radius:20px;
     font-family: 'calibri';
     color:white;
-   
+}
+
+.login label{
+    margin-top:50px;
 }
 
 .login input{
-    width:300px;
-    background-color: aliceblue;
-    text-decoration-color: #24303c;
+    margin-bottom: 10px;
+    margin-top: 2px;
 }
 
-.login h3{
-font-size:22px;
-margin-bottom:10px;
-background-color:#24303c;
+.Tc{
+    color: aliceblue;
+}
+
+h3{
+    text-align: center;
+    margin-top:-10px;
+}
+
+.login button{
+    margin-right:20px;
+    margin-top: 10px;
 }
