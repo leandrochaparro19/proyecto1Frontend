@@ -1,33 +1,54 @@
+.body{
+   background-color: rgb(82, 15, 19); 
+}
+#termino{
+    width: 20px;
+}
+
 .login{
-    width: 220px;
-    background: #24303c;
+    width: 270px;
+    background: #e9ecef;
     padding: 30px;
     margin:auto;
     margin-top:50px;
     border-radius:20px;
     font-family: 'calibri';
-    color:white;
 }
 
-.login label{
+
+.label{
+    font-size: 18px;
+    font-weight:bold;
     margin-top:50px;
+    text-transform: lowercase;
 }
 
 .login input{
+    width: 225px;
     margin-bottom: 10px;
     margin-top: 2px;
 }
 
-.Tc{
-    color: aliceblue;
-}
+
 
 h3{
+    font-size:22px;
     text-align: center;
     margin-top:-10px;
 }
 
 .login button{
-    margin-right:20px;
+    width:110px;
+    height: 30px;
+    margin-right:10px;
     margin-top: 10px;
+    background-color:rgb(20, 62, 177);
+    border-color: aliceblue;
+    color: #e9ecef;
 }
+
+.anchor{
+    text-decoration: none;
+    color: #e9ecef;
+}
+

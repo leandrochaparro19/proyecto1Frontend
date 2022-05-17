@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Formulario</title>
+    <script type="text/javascript">
+        function enableRegistrar(){
+            const submitbutton= document.getElementById("submit");
+            submitbutton.disabled=!document.getElementById("termino");
+        };
+    </script>
+    
 </head>
-<body>
+<body class="body">
     <form class="login">
         <h3>Registro</h3>
-        <label for="nombres">Nombre:</label> <br>
+        <label class="label" for="nombres">Nombre:</label> <br>
         <input type="text" name="nombres" id="nombres" placeholder="Nombre"><br>
         
-        <label for="usuario">Usuario:</label> <br> 
+        <label class="label" for="usuario">Usuario:</label> <br> 
         <input type="text" name="usuario" id="usuario" placeholder="usuario"><br>
         
-        <label for="password">Contraseña:</label> <br>
+        <label class="label" for="password">Contraseña:</label> <br>
         <input type="password" name="password" id="password" placeholder="Password"><br>
         
-        <label for="Cpassword">Confirmar contraseña:</label> <br>
+        <label class="label" for="Cpassword">Confirmar contraseña:</label> <br>
         <input type="password" name="Cpassword" id="Cpassword" placeholder="Confirmar Password"><br>
         
-        <label for="email">Email:</label> <br>
+        <label class="label" for="email">Email:</label> <br>
         <input type="email" name="email" id="email" placeholder="Email"><br>
         
-        <input type ="checkbox" name="terminos">
+        <input type ="checkbox" name="terminos" id="termino" onclick ="enableRegistrar()">
         <label for="terminos"><a href="#" class="Tc"> Acepto terminos y condiciones</a></label><br>
-        <!--<p><a href="#" class="Tc"> Terminos y condiciones</a>
-        Si <input type="radio" name="check"> No <input type ="radio" name="check"></p>
-        <p>Soy humano <input type ="checkbox" > </p>
-        -->
-        <button type="submit">Registrar</button> 
-        <button type="submit"><a href="./index2.html">Iniciar session</button> 
+    
+        <button type="submit" id="submit" disabled="disabled">Registrar</button> 
+        <button type="submit"><a class="anchor" href="./index2.html">Iniciar session</button> 
     </form>
     
 
