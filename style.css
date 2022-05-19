@@ -4,10 +4,11 @@
    background-position:center center;
    background-attachment: fixed;
    background-size:cover;
-
 }
+
 #termino{
     width: 20px;
+    height:13px
 }
 
 .login{
@@ -25,13 +26,14 @@
     font-size: 18px;
     font-weight:bold;
     margin-top:50px;
-    text-transform: lowercase;
 }
 
 .login input{
+    height: 20px;
     width: 225px;
     margin-bottom: 10px;
     margin-top: 2px;
+    
 }
 
 
@@ -50,6 +52,7 @@ h3{
     background-color:rgb(20, 62, 177);
     border-color: aliceblue;
     color: #e9ecef;
+    border-radius: 5px;
 }
 
 .anchor{
